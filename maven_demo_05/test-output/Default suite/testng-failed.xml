@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.test.LoginTest">
+        <methods>
+          <include name="VerifyTitleOfPage"/>
+        </methods>
+      </class> <!-- com.test.LoginTest -->
+      <class name="com.all_methods.DataDrivenCode">
+        <methods>
+          <include name="test01"/>
+        </methods>
+      </class> <!-- com.all_methods.DataDrivenCode -->
+      <class name="com.window_handles.WindowHandles">
+        <methods>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- com.window_handles.WindowHandles -->
+      <class name="com.testng.DemoTesting">
+        <methods>
+          <include name="name"/>
+          <include name="user"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="dash"/>
+        </methods>
+      </class> <!-- com.testng.DemoTesting -->
+      <class name="com.project.Scroll_JavaScriptEx">
+        <methods>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- com.project.Scroll_JavaScriptEx -->
+      <class name="com.testng.testNg_Demo">
+        <methods>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="user"/>
+          <include name="dash"/>
+        </methods>
+      </class> <!-- com.testng.testNg_Demo -->
+      <class name="com.task_frame.JbkTest">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.task_frame.JbkTest -->
+      <class name="com.test_window_handle.WindowEx">
+        <methods>
+          <include name="test01"/>
+        </methods>
+      </class> <!-- com.test_window_handle.WindowEx -->
+      <class name="com.project.JavaScriptExecute">
+        <methods>
+          <include name="test01"/>
+        </methods>
+      </class> <!-- com.project.JavaScriptExecute -->
+      <class name="com.all_methods.DragAndDrop">
+        <methods>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- com.all_methods.DragAndDrop -->
+      <class name="com.test.TestNG_Ex">
+        <methods>
+          <include name="user"/>
+          <include name="login"/>
+          <include name="dash"/>
+        </methods>
+      </class> <!-- com.test.TestNG_Ex -->
+      <class name="com.project.FileUploadEx">
+        <methods>
+          <include name="Test01"/>
+        </methods>
+      </class> <!-- com.project.FileUploadEx -->
+      <class name="com.all_methods.ReadExcelFile">
+        <methods>
+          <include name="test01"/>
+        </methods>
+      </class> <!-- com.all_methods.ReadExcelFile -->
+      <class name="com.task_frame.Frame_Handle">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.task_frame.Frame_Handle -->
+      <class name="com.all_methods.JavaScriptEx">
+        <methods>
+          <include name="test01"/>
+        </methods>
+      </class> <!-- com.all_methods.JavaScriptEx -->
+      <class name="com.pageobjectmodel.LoginTest">
+        <methods>
+          <include name="loginpage"/>
+        </methods>
+      </class> <!-- com.pageobjectmodel.LoginTest -->
+      <class name="com.all_methods.ExcelWrite">
+        <methods>
+          <include name="test01"/>
+        </methods>
+      </class> <!-- com.all_methods.ExcelWrite -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
